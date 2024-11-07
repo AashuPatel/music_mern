@@ -1,0 +1,17 @@
+body{
+    padding-top: 40px;
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 360px;
+}
+
+@media (max-width : 470px){
+    body{
+        flex-direction: column;
+    }
+}
